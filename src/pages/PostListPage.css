@@ -1,0 +1,37 @@
+.page-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 45px;
+}
+.post-search {
+  position: relative;
+}
+.post-search::before {
+  content: "\F52A";
+  font-family: "bootstrap-icons";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-52%);
+  color: #666;
+}
+.post-search-input {
+  width: 100%;
+  padding: 12px 35px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+.post-search-input::placeholder {
+  transition: 0.5s;
+}
+.post-search-input:focus::placeholder {
+  opacity: 0;
+}
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,24 @@
+.list-header {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 10px;
+}
+.list-controls {
+  display: flex;
+}
+.sort-btn {
+  padding: 5px 10px;
+  color: #666;
+}
+.sort-btn.active {
+  background-color: #222;
+  color: #fff;
+}
+.list-header a {
+  text-decoration: none;
+  color: #666;
+}
+.list-header a:hover {
+  color: #222;
+}

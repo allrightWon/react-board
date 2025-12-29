@@ -1,0 +1,47 @@
+.page-home {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px 45px;
+}
+.recent-posts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.recent-posts-section h2 {
+  user-select: none;
+  text-align: left;
+}
+.recent-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.more-post {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.more-post a {
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.link-posts {
+  background-color: #fff;
+  color: #222;
+}
+.link-posts:hover {
+  background: #f3f4f6;
+}
+.link-write {
+  background-color: #222;
+  color: #fff;
+}
+.link-write:hover {
+  background-color: #615e5e;
+}

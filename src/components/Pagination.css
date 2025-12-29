@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pages {
+  display: flex;
+  gap: 5px;
+}
+.pages button {
+  color: #aaa;
+  border: 1px solid #aaa;
+  width: 40px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #222;
+}
+.pages button.active {
+  background-color: #222;
+  color: #fff;
+  border-color: transparent;
+}
